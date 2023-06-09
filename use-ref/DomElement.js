@@ -9,11 +9,9 @@ const DomElement = function() {
         console.log(rect); // lấy ra các thuộc tính của element
     }, [])
 
-  return (
-    <div ref={useRef}>
-
-    </div>
-  )
+    return (
+        <div ref={useRef}></div>
+    )
 }
 
 export default DomElement
