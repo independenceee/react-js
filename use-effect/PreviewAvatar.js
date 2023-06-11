@@ -16,6 +16,8 @@ const PreviewAvatar = function() {
         file.preview = URL.createObjectURL(file);
 
         setAvatar(file)
+
+        event.target.value = null;
     }
 
     return (
