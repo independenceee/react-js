@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 
 // Lưu biến ra bên ngoài phạm vi Function Components
-// useRef luôn trả về Object { current.value } và giá trị khởi tạo lưu ở .current default bằng undefined
+// useRef luôn trả về Object { current.value } và giá trị khởi tạo lưu ở 
+// .current default bằng undefined
 // Mỗi khi set lại không reset inital mà luôn set lại giá trị
 
 
